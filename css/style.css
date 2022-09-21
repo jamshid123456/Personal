@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 72px;
+    color: rgb(238, 12, 12);
+    text-align: center;
+    padding: 25px 20px 25px;
+}
+.header{
+    background-color: black;
+}
+.header_blog img{
+    width: 100%;
+    height: 768px;
+    margin: 0 auto;
+}
+.logo:hover{
+    color: rgb(240, 110, 110);
+}
+.main_blog{
+    /* width: 1400px; */
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.main_blog li{
+    padding: 20px 0;
+}
+.main{
+    background-color: black;
+    /* height: 768px; */
+}
+.main_link{
+    font-size: 16px;
+    color: rgb(91, 239, 32);
+    padding: 30px 25px 15px;;
+}
+.personal_blog{
+     /* width: 270px; */
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 150px; */
+    /* text-align: justify; */
+}
+/* .personal_blog:hover{
+    color: rgb(0, 255, 242);
+} */
+.personal_title{
+    /* text-transform: uppercase; */
+    /* display: inline-block; */
+    color: rgb(52, 232, 226);
+    padding-top: 30px;
+    font-size: 48px;
+}
+.personal_title:hover{
+color: rgb(108, 247, 98);
+}
+.personal_subtitle{
+    font-size: 20px;
+    color: rgb(238, 244, 68);
+    /* text-align: justify; */
+    padding-top: 15px;
+    flex-wrap: wrap;
+}
+.personal_subtitle:hover{
+    color: rgb(255, 255, 255);
+}
+.super_blog{
+    display: flex;
+    padding-top: 50px;
+}
+.personal_link{
+    font-size: 16px;
+    color: rgb(91, 239, 32);
+    /* padding: 15px 25px 20px 20px; */
+    padding-left: 20px;
+}
+.Images img{
+    height: 765px;
+    width: 1200px;
+    /* padding: 50px 20px 50px; */
+}
+.footer_blog{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px 30px;
+    flex-wrap: wrap;
+}
+.footer_link{
+    font-size: 24px;
+    color: rgb(238, 12, 12);
+    /* padding-left: 150px; */
+}
+.foot_number{
+    /* display:inline-block; */
+    font-size: 36px;
+    color: rgb(238, 12, 12);
+    text-align: center;
+    /* padding-left: 350px; */
+}
+.foot_number:hover{
+    color: rgb(234, 193, 44);
+}
+footer{
+    background-color: #000;
+}
+.foot2_number{
+    padding-bottom: 50px;
+}
+.footer_link:hover{
+    /* color: rgb(238, 12, 12); */
+    color: rgb(248, 212, 51);
+}
+.personal_link:hover{
+    color: rgb(8, 112, 238);
+}

@@ -1,0 +1,108 @@
+@media(max-width:1200px){}
+@media(max-width:992px){
+    .container{
+        width: 992px;
+    }
+    .header{
+        width: 992px;
+    }
+    .header_blog img{
+        width: 100%;
+    }
+    .Images img{
+        width: 992px;
+    }
+    .personal_subtitle{
+        text-align: justify;
+        font-size: 14px;
+        width: 270px;
+    }
+    .personal_title{
+        font-size: 32px;
+    }
+    .personal_blog{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media(max-width:768px){
+    .container{
+        width: 768px;
+    }
+    .header{
+        width: 768px;
+    }
+    .header_blog img{
+        width: 100%;
+    }
+    .Images img{
+        width: 768px;
+    }
+    .personal_link{
+        font-size: 12px;
+    }
+    .personal_subtitle{
+        text-align: justify;
+        font-size: 12px;
+        width: 140px;
+    }
+    .personal_blog{
+        display: flex;
+        justify-content: space-between;
+    }
+    .foot_number{
+        font-size: 24px;
+        text-align: center;
+    }
+    .footer_link{
+        font-size: 16px;
+    }
+    .footer_blog{
+        padding-right: 50px;
+    }
+
+}
+@media(max-width:576px){
+    .container{
+        width: 576px;
+    }
+    .header{
+        width: 576px;
+    }
+    .header_blog img{
+        width: 100%;
+        height: 576px;
+    }
+    .Images img{
+        width: 576px;
+        height: 576px;
+    }
+    .personal_link{
+        font-size: 10px;
+    }
+    .personal_subtitle{
+        text-align: justify;
+        font-size: 10px;
+        width: 140px;
+    }
+    .personal_title{
+        font-size: 20px;
+    }
+    .personal_blog{
+        /* display: flex; */
+        justify-content: space-between;
+    }
+    .foot_number{
+        font-size: 16px;
+        text-align: center;
+        padding-right: 50px;
+    }
+    .footer_link{
+        font-size: 16px;
+    }
+    .footer_blog{
+        padding-right: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
